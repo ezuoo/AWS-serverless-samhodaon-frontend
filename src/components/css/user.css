@@ -1,0 +1,131 @@
+.user-container {
+    display: flex;  
+    justify-content: center;    
+    width: 100%;
+}
+
+.user-layout {
+    width: 90%;    
+}
+#user-layout {
+    background-color: white;
+}
+.user-layout-content-container {
+    margin-bottom: 1rem;
+}
+
+.user-layout-footer-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 25rem;
+    margin-bottom: 2rem;
+}
+
+.user-layout-footer-content {
+    width: 76%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size:1rem;
+    padding: 1rem;
+    border-top: 0.02rem solid #cccccc;
+    letter-spacing: 0.2rem;
+    line-height: 1.8rem;
+}
+.user-landing-container {
+    width: 76%;
+    margin: 1rem auto;
+}
+
+.user-daon-container {
+    width: 76%;
+    margin: 1rem auto;
+}
+
+.user-daon-top-image {
+    border: 1px solid;
+    width: 100%;
+    height: 25rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.user-daon-content{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+.user-daon-map-container{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.user-daon-map-content {
+    width: 50%;
+    height: 25rem;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.user-cases-container {
+    background-color: white;
+}
+.user-cases-content-row {
+    margin-top: 2.5rem;
+}
+.user-cases-row-right {
+    padding-left: 1rem;
+}
+.user-cases-row-left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.user-case-top-image {
+    border: 1px solid;
+    width: 80%;
+    height: 25rem;    
+    text-align: center;
+    margin: 0rem auto;
+}
+
+.ant-carousel .slick-dots-bottom {
+    margin: 0;
+    bottom: 25px;
+}
+
+.user-notice-container {
+    width: 76%;
+    margin: 4rem auto;   
+}
+
+.user-notice-content{
+    margin: 2rem auto;
+    width: 100%;
+    height: auto;
+    border: 0.1rem solid #e6e6e6;
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+.user-order-container {
+    width: 76%;
+    margin: 4rem auto;   
+}
+
+.user-order-content{
+    margin: 2rem auto;
+    width: 100%;
+    height: auto;
+    border: 0.1rem solid #e6e6e6;
+    border-radius: 1rem;
+    padding-top: 3rem;
+}

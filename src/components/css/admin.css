@@ -1,0 +1,22 @@
+::-webkit-scrollbar { display: none; } 
+
+#admin-body-container { 
+    display: flex;
+    background-color: #f5f5f5; 
+    min-height: 100vh;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+#admin-body-content {
+    width: 84%;
+    min-height: 100vh;
+}
+
+#admin-body-content-row {
+    height: 100%;
+}
+
+#admin-body-col-right {
+    padding-left: 10%;
+}

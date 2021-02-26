@@ -1,0 +1,325 @@
+::-webkit-scrollbar { display: none; } 
+#admin-nav-header { 
+    display: flex;
+    background-color: #fff; 
+    height: 80px; 
+    justify-content: center;
+}
+
+#admin-nav-content {
+    width: 90%;
+    height: 100%; 
+    padding-top: 2rem;
+}
+
+#admin-sider { 
+    /* width: 256; */
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 1px grey;    
+}
+
+#admin-load {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#admin-null {
+    
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#admin-element-container {
+    overflow:hidden;
+    height:auto;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#admin-element-tab-container {
+    width: 90%;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#admin-element-tab-add {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+#admin-cases-container {
+    margin-top: -3rem;
+}
+
+#admin-cases-list-add {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#admin-cases-list-content {
+    margin-top: 1rem;
+    overflow:hidden;
+    height:auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    background-color: white;
+    padding: 1.5rem;
+}
+
+#admin-cases-item-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#admin-cases-item-container {
+    border: 1px solid #e6e6e6;
+    padding-top: 3rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+#admin-cases-item-content {
+    width: 100%;
+}
+
+#slide-view-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+#slide-view-content {
+    width: 55%;
+    height: 400px;
+}
+
+.slide-view-size {
+    height: 100%;
+    width: 100%;
+}
+
+#admin-cases-add-buttons {
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+#admin-cases-add-container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 2px solid #e6e6e6;
+    margin-bottom: 5rem;
+    box-shadow: 5px 5px 8px grey;
+}
+
+#admin-cases-add-content {
+    width: 100%;
+}
+
+#admin-cases-add-form {    
+    margin-bottom: 2rem;
+}
+
+#admin-cases-add-editor {
+    margin-bottom: 1rem;
+}
+
+#admin-cases-edit-buttons {
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+#admin-cases-edit-container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 2px solid #e6e6e6;
+    margin-bottom: 5rem;
+    box-shadow: 5px 5px 8px grey;
+}
+
+#admin-cases-edit-content {
+    width: 100%;
+}
+
+#admin-cases-edit-form {
+    margin-bottom: 2rem;
+}
+#admin-cases-edit-editor {
+    margin-bottom: 1rem;
+}
+.rdw-editor-main {
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    background-color: white;
+    border: 2px solid #f1f1f1;
+    padding: 5px;
+    border-radius: 4px;
+    min-height: 60vh;
+}
+
+.ant-tabs-content-holder {
+    /* flex: auto;
+    min-width: 0;
+    min-height: 0; */
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.ant-tabs-top > .ant-tabs-nav  {
+    margin: 0;
+}
+
+.ant-input {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+    width: 80%;
+    font-size: 16px;
+}
+.ant-card-body {
+    padding: 20px;
+    height: 95px;
+}
+.ant-card-meta-title {
+   letter-spacing: 0.1em;
+   font-size: 14px;
+}
+.ant-card-meta-description {
+    letter-spacing: 0.05em;
+    margin: 1.25em 0 0 0;
+}
+
+.ant-descriptions-item-label {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.34444em;
+}
+.ant-descriptions-container {
+    width: 100%;
+    padding: 2rem;
+}
+.ant-descriptions-item-content {
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.24444em;
+}
+.ant-descriptions-item-text {
+    text-align: left;
+}
+
+#form-text-container {
+    margin-bottom: 1rem
+}
+
+#form-image-container {
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+
+#form-container {
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+#form-left-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+}
+
+#form-left-content {
+    width: 100%;
+}
+
+#form-radio-check-label {
+    line-height: 2;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: 0.54444em;
+    
+}
+
+#form-radio-check-container {
+    display: flex;
+    justify-content: center;
+}
+
+.MuiFormLabel-root.Mui-focused {
+    color: #8c8c8c !important;
+    font-size: 1rem;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #e6e6e6 !important;
+}
+
+.MuiFormHelperText-root.Mui-error {
+    color: #bf1650;
+    margin: 0;
+    font-size: 1rem;
+    margin-top: 3px;
+    padding-left: 1rem;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+    text-align: center;
+    
+}
+
+#admin-slides-container {
+    margin-top: 2rem;
+}
+
+#admin-slides-slider-container {
+    border: 1px solid #e6e6e6;
+    padding-top: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 5rem;
+}
+
+#admin-slides-slider-content {
+    width: 100%;
+}
+
+#admin-slides-upload {
+    overflow:hidden;
+    height:auto;
+    padding-top: 0rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#admin-order-container {
+    margin-top: 2rem;
+}
